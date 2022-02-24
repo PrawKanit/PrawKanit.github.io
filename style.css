@@ -33,3 +33,7 @@ h1,h2,h3,p{
     width:800px;
     height:600px;
 }
+/*去掉无序列表项目符号*/
+ul{
+    list-style: none;
+}
