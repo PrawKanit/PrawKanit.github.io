@@ -28,3 +28,8 @@ aside{
 h1,h2,h3,p{
     color: rgb(175, 186, 196);
 }
+/*设置bilibili视频样式*/
+.bilibili{
+    width:800 ;
+    height:600 ;
+}
