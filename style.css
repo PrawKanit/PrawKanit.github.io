@@ -8,3 +8,16 @@ body{
 main{flex: auto;}
 aside{flex: 1;}
 article{flex: 3;}
+
+/*body样式*/
+body{
+    background-color: rgb(69, 85, 114);
+}
+/*左边样式*/
+aside{
+    background-color: rgb(36, 81, 117);
+}
+/*设置字体颜色*/
+h1,h2,h3,p{
+    color: rgb(175, 186, 196);
+}
