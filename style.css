@@ -63,3 +63,7 @@ h1,h2,h3,p{
 ul{
     list-style-type: none;
 }
+/*给点击跳转的图片设置样式*/
+.sky-0{
+    float:right;
+}
