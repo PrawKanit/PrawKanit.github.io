@@ -8,14 +8,24 @@ body{
 main{flex: auto;}
 aside{flex: 1;}
 article{flex: 3;}
-
-/*全局样式*/
-*{
-    background: url(sky-1.png) no-repeat;
-    margin: 0px; 
-    background-size: 100% 100%;
-    background-attachment: fixed;
-   } 
+/*全局背景*/
+body{
+    width: 100%;
+    height:100%;
+    display: block;
+    position: relative;
+}
+body::after{
+    content: "";
+    background: url(sky-2.png);
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
 /*body样式*/
 body{
     background-color: rgb(69, 85, 114);
