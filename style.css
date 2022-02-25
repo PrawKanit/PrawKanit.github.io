@@ -17,8 +17,10 @@ body{
 }
 body::after{
     content: "";
-    background: url(sky-2.png);
-    opacity: 0.3;
+    background: url(sky-1.png) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    opacity: 1;
     top: 0;
     left: 0;
     bottom: 0;
@@ -26,21 +28,31 @@ body::after{
     position: absolute;
     z-index: -1;
 }
-/*body样式*/
-body{
-    background-color: rgb(69, 85, 114);
-}
+
 /*顶部样式*/
 header{
-    
+     background-color: rgb(225,225,225);
+     opacity: 0.3;
 }
 /*左边样式*/
 aside{
-    background-color: rgb(36, 81, 117);
+    background-color:rgb(225,225,225);
+    opacity: 0.6;
+}
+/*右边样式*/
+article{
+    background-color:rgb(225,225,225);
+    opacity: 0.8;
+}
+/*底部样式*/
+footer{
+    background-color: rgb(225,225,225);
+    opacity: 0.2;
 }
 /*设置字体颜色*/
 h1,h2,h3,p{
-    color: rgb(175, 186, 196);
+    color: rgb(0, 2, 5);
+    text-shadow: 1px 1px rgb(255,255,255);
 }
 /*设置bilibili视频样式*/
 .bilibili{
