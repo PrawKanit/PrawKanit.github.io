@@ -66,5 +66,5 @@ ul{
 /*给点击跳转的图片设置样式*/
 .sky-0{
     float:right;
-    right:100px;
+    right:-100px;
 }
