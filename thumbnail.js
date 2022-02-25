@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function(event) {
 let targetImage = document.querySelector("#smart-image1");
 targetImage.addEventListener("click", function() {
     if (targetImage.classList.contains("small")) {
