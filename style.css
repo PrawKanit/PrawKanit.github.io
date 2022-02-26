@@ -1,5 +1,6 @@
 a:link{
-    color: rgb(14, 92, 102);
+    color: rgb(244, 247, 248);
+    text-shadow:2px 2px rgb(26, 16, 2);
 }
 a:hover{
     color:green ;}
@@ -11,61 +12,70 @@ body,main{
 }
 body{
     flex-direction: column;
+    background: url(./images/sky-1.png) no-repeat;
+    background-size: 100% 100%;
 }
 main{flex: auto;}
 aside{flex: 1;}
 article{flex: 3;}
 *{
-    background: url(./images/sky-1.png) no-repeat;
-    z-index: 1;
-    margin: 0px; 
-    background-size: 100% 100%;
+    margin: 0px;  
     background-attachment: fixed;
-
 }
 
 /*顶部样式*/
 header{
-     background-color: rgb(225,225,225);
-     opacity: 1;
+     background-color: rgb(82, 94, 95);
+     opacity: 0.5;
 }
 /*左边样式*/
 aside{
-    background-color:rgb(14, 92, 102);
-    opacity: 0.7;
+    background-color:rgb(89, 95, 78);
+    opacity: 0.8;
 }
 /*右边样式*/
 article{
-    background-color:rgb(14, 92, 102);
+    background-color:rgb(69, 92, 95);
     opacity: 1;
     text-align:center;
 	text-align: center;
 	border-style:solid solid solid solid;
 	border-width: 5px;
 	border-radius: 5px;
-	border-color: rgb(14, 92, 102);
+	border-color: rgb(57, 95, 100);
 }
 /*底部样式*/
 footer{
-    background-color: rgb(225,225,225);
-    opacity: 0.2;
+    color: rgb(225,225,225);
+    background-color: rgb(69, 92, 95);
+    opacity: 0.9;
 }
 h1{
     font-weight:bold;
 }
 /*设置字体颜色*/
-h1,h2,h3{
-    color: rgb(196, 124, 16);
-    text-shadow: 2px 2px rgb(14, 92, 102);
+h1{
+    color: rgb(225,225,225);
+    text-shadow: 2px 2px rgb(26, 16, 2);
+}
+h2{
+    color: rgb(185, 206, 216);
+    text-shadow: 2px 2px rgb(3, 20, 22);
+}
+h3{
+    color: rgb(127, 162, 167);
+    text-shadow: 2px 2px rgb(20, 23, 24);
 }
 h4{
-    color: rgb(14, 92, 102);
-    text-shadow: 2px 2px rgb(153, 169, 172);
+    color: rgb(90, 147, 172);
+    text-shadow: 2px 2px rgb(3, 20, 22);
 }
 p{
     font-weight:bolder;
-    color: rgb(109, 95, 73);
+    color: rgb(199, 218, 218);
+    text-shadow:1px 1px  rgb(2, 1, 14);
 }
+
 /*设置bilibili视频样式*/
 .bilibili{
     width:800px;
