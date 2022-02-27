@@ -15,12 +15,31 @@ body{
     background: url(./images/sky-1.png) no-repeat;
     background-size: 100% 100%;
 }
+
+body{
+    flex-direction: column;
+}
+/*.gif{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: url(./images/sky.gif);
+    background-size: cover;
+}*/
+
 main{flex: auto;}
 aside{flex: 1;}
 article{flex: 3;}
 *{
     margin: 0px;  
     background-attachment: fixed;
+}
+/*设置gif样式*/
+.gif{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
 }
 
 /*顶部样式*/
@@ -94,8 +113,4 @@ ul{
     left:100px;
     width: 80px;
     height: 80px;
-}
-.box{
-    display: none;
-    color: #000;
 }
