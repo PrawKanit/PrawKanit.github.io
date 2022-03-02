@@ -11,11 +11,17 @@ body,main{
     display: flex;
 }
 main{flex: auto;}
-aside{flex: 1;}
+aside{
+    flex: 1;
+}
 article{flex: 3;}
 *{
     margin: 0px;  
     background-attachment: fixed;
+}
+/*bilibili-1.thml中固定左侧菜单*/
+.fix{
+    position: fixed;
 }
 /*设置背景*/
 body.body-0{
@@ -23,6 +29,11 @@ body.body-0{
     background: url(./images/sky-1.png) no-repeat;
     background-size: 100% 100%;
 }
+body.body-bilibili-1{
+    flex-direction: column;
+    background-image:linear-gradient(90deg,rgba(10, 77, 32, 0.5),rgba(7, 90, 83, 0.5));
+}
+
 /*body.body-picture{
     flex-direction: column;
    
@@ -69,14 +80,15 @@ img.small {
     text-align:center;
     bottom: 0;
 }
+
 /*弹性盒垂直显示*/
 body{
     flex-direction: column;
 }
 /*设置跟随鼠标的gif样式*/
 .gif{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     position: absolute;
     /*修复被覆盖*/
     z-index: 100;
